@@ -1,0 +1,96 @@
+
+
+[Scatter2d] INIT starts ...
+
+
+[Scatter2d] Potential type: custom-defined in PES_ITSE.dat
+[Scatter2d] DIMENSIONS: 2
+[Scatter2d] EDGE: 2
+[Scatter2d] PERIOD: 1000000
+[Scatter2d] PRINT_PERIOD: 8000000
+[Scatter2d] ENERGY_PERIOD: 500
+[Scatter2d] Number of grids = (551, 331)
+[Scatter2d] hb: 1.000000
+[Scatter2d] m1: 58328.785754
+[Scatter2d] m2: 14582.196438
+[Scatter2d] isFullGrid: 1
+[Scatter2d] isToggle: 0
+[Scatter2d] TolH: 1.000000e-03
+[Scatter2d] TolL: 1.000000e-02
+[Scatter2d] TolHd: 1.000000e-02
+[Scatter2d] TolLd: 1.000000e-01
+[Scatter2d] ExReduce: 1.000000
+[Scatter2d] ExLimit: 3
+[Scatter2d] idx_des_1: 451
+[Scatter2d] (idx_des_2_min,idx_des_2_max): 0 330
+[Scatter2d] idx_dis_2: 285
+[Scatter2d] (idx_dis_1_min,idx_dis_1_max): 0 550
+[Scatter2d] INIT done.
+
+[Scatter2d] Evolve starts ...
+[Scatter2d] Initializing containers ...
+[Scatter2d] Initializing custom-defined wavefunction from IniCndt_ITSE.dat...
+[Scatter2d] Initializing custom-defined potential energy surface from PES_ITSE.dat...
+[Scatter2d] Normalization factor N = 1.9999999788329098e-01
+[Scatter2d] Normalization factor 1/sqrt(N) = 2.2360679893325530e+00
+[Scatter2d] Initialization core computation time: 1.0909e-01 sec
+=======================================================
+
+[Scatter2d] Time interation starts ...
+[Scatter2d] Number of steps = 8000002
+
+=======================================================
+
+[Scatter2d] Time = 1000.000030 fs, Norm = 1.0167610531814875e+00
+[Scatter2d] Step: 1000000, Elapsed time: 4.6825e-04 sec
+[Scatter2d] Core computation time = 0.000465
+
+........................................................
+
+[Scatter2d] Time = 2000.000060 fs, Norm = 1.0167610531814875e+00
+[Scatter2d] Step: 2000000, Elapsed time: 4.6155e-04 sec
+[Scatter2d] Core computation time = 0.000459
+
+........................................................
+
+[Scatter2d] Time = 3000.000090 fs, Norm = 1.0167610531814875e+00
+[Scatter2d] Step: 3000000, Elapsed time: 4.6109e-04 sec
+[Scatter2d] Core computation time = 0.000459
+
+........................................................
+
+[Scatter2d] Time = 4000.000120 fs, Norm = 1.0167610531814875e+00
+[Scatter2d] Step: 4000000, Elapsed time: 4.6107e-04 sec
+[Scatter2d] Core computation time = 0.000459
+
+........................................................
+
+[Scatter2d] Time = 5000.000150 fs, Norm = 1.0167610531814875e+00
+[Scatter2d] Step: 5000000, Elapsed time: 4.4952e-04 sec
+[Scatter2d] Core computation time = 0.000447
+
+........................................................
+
+[Scatter2d] Time = 6000.000180 fs, Norm = 1.0167610531814877e+00
+[Scatter2d] Step: 6000000, Elapsed time: 4.5593e-04 sec
+[Scatter2d] Core computation time = 0.000454
+
+........................................................
+
+[Scatter2d] Time = 7000.000210 fs, Norm = 1.0167610531814879e+00
+[Scatter2d] Step: 7000000, Elapsed time: 4.7183e-04 sec
+[Scatter2d] Core computation time = 0.000469
+
+........................................................
+
+[Scatter2d] Time = 8000.000240 fs, Norm = 1.0167610531814875e+00
+[Scatter2d] Step: 8000000, Elapsed time: 4.6477e-04 sec
+[Scatter2d] Core computation time = 0.000463
+
+........................................................
+
+[Scatter2d] Evolve done.
+[Job_Scatter2d] Done! 
+real 2823.14
+user 45136.12
+sys 17.24

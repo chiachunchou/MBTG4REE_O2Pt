@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH -J test
+#SBATCH -A A-ccsc
+#SBATCH -o test.o%j
+#SBATCH -e test.e%j
+#SBATCH -N 1
+#SBATCH -n 1
+#SBATCH -p normal
+#SBATCH -t 2:00:00
+
+ml intel/19.1.1
+ml impi/19.0.9
+
+export OMP_NUM_THREADS=56
+export OMP_PROC_BIND=close
+export OMP_PLACES=cores
+
+time ibrun ./qtr_mpi ./ini.test
